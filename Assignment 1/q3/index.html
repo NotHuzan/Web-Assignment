@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>APPLICATION FORM</h1>
+        <form class="form">
+            <div class="box1">
+                <div class="input1">
+                    <p>NAME</p>
+                    <input type="text" id="Name" required>
+                </div>
+                <div class="input2">
+                    <p>EMAIL</p>
+                    <input type="email" id="Email" required>
+                </div>
+            </div>
+            <div class="input3">
+                <p>Address</p>
+                <input type="text" id="Address" required>
+            </div>
+            <div class="input4">
+                <p>Cover Letter</p>
+                <input type="text" id="Cover Letter" required>
+            </div>
+            <p for="pdfFile">Select PDF:</p>
+            <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+            <div class="box1">
+                <div class="input5">
+                    <p>Highest Level of Education</p>
+                    <input type="text" id="Highest Education" required>
+                </div>
+                <div class="input6">
+                    <p>Name of University</p>
+                    <input type="text" id="University" required>
+                </div>
+            </div>
+
+            <div class="box1">
+                <div class="input7">
+                    <p>Major</p>
+                    <input type="text" id="Major" required>
+                </div>
+                <div class="input8">
+                    <p>Grraduation Area</p>
+                    <input type="text" id="Graduation Area" required>
+                </div>
+            </div>
+
+            <div class="box1">
+                <div class="input9">
+                    <p>Employment History</p>
+                    <input type="text" id="Employment History" required>
+                </div>
+                <div class="input10">
+                    <p>Previous Company Name</p>
+                    <input type="text" id="Previous Company Name" >
+                </div>
+            </div>
+            <div class="box1">
+                <div class="input11">
+                    <p>Previous Company Start Date</p>
+                    <input type="text" id="Prev Start" >
+                </div>
+                <div class="input12">
+                    <p>Previous Company End Date</p>
+                    <input type="text" id="Prev End" >
+                </div>
+            </div>
+            <div class="input13">
+                <p>Skills</p>
+                <input type="text" id="Skills" required>
+            </div>
+            <div class="input14">
+                <p>Certifications</p>
+                <input type="text" id="Certifications">
+            </div>
+            <div class="input15">
+                <p>How soon you can join?</p>
+                <input type="text" id="Your Joining" required>
+            </div>
+            <div class="box1">
+                <div class="input16">
+                    <p>Preferred Work Shedule</p>
+                    <input type="text" id="Your Schedule" required>
+                </div>
+                <div class="input17">
+                    <p>Willingness to Relocate</p>
+                    <input type="text" id="Your Willingness" required>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="input18">
+                    <p>Reference Name</p>
+                    <input type="text" id="Reference Name">
+                </div>
+                <div class="input19">
+                    <p>Relation with Reference</p>
+                    <input type="text" id="Reference Relation">
+                </div>
+            </div>
+            <div class="input20">
+                <p>Why you want to work with us ?</p>
+                <input type="text" id="Why you want to work ?">
+            </div>
+            <div class="box">
+                <div class="input">  <input type="checkbox" id="acceptPolicy" required> </div>
+                <div class="label"> <label for="acceptPolicy">Accept our policy</label></div>
+               
+            </div>
+           
+
+              
+            <div class="buttonBox">
+                <button type="submit" class="btn" >SUBMIT</button>
+            </div>
+            <div class="buttonBox">
+                <button class="btn tableBtn" >View Application as table</button>
+            </div>
+        </form>
+    </div>
+
+    <table style="display: none;">
+        <!-- <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead> -->
+        <tbody>
+            <!-- Rows -->
+            <!-- <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+            </tr> -->
+        </tbody>
+    </table>
+</body>
+<script src="./app.js"></script>
+
+</html>
